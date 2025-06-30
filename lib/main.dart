@@ -352,11 +352,11 @@ class _LoginScreenState extends State<LoginScreen> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 const SizedBox(height: 80.0), // Top padding for logo placement
-                // Nintendo 64 logo from a network URL
-                Image.network(
-                  'https://www.gstatic.com/flutter-onestack-prototype/genui/example_1.jpg',
-                  width: 200,
-                  height: 200,
+                // Nintendo 64 logo
+                Image.asset(
+                  'images/N64-Logo.png',
+                  width: 300,
+                  height: 300,
                   fit: BoxFit.contain,
                 ),
                 const SizedBox(height: 60.0), // Space after logo
